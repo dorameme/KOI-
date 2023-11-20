@@ -19,5 +19,5 @@ int main(){
         v.push_back(num);
     }
     sort(v.begin(),v.end());
-    cout<<v[0]*v[v.size()-1];
+    cout<<v.front()*v.back();
 }
